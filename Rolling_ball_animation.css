@@ -1,0 +1,100 @@
+body{
+		padding:0;
+		margin:0;
+		font-family:"Baloo Da 2";
+		}
+
+.roll{
+		text-align:center;
+		font-size:40px;
+		font-weight:700;
+		text-shadow:2px 2px 5px grey;
+		}
+.roll_ball{
+		width:28vmax;
+		height:28vmax;
+		border-radius:50%;
+		margin:10%;
+		position:relative;
+		animation:myRoll 4s infinite;
+		}
+.roll_a,.roll_b,.roll_c,.roll_d,.roll_e,.roll_f,.roll_g,.roll_h,.roll_i,.roll_j,.roll_k,.roll_l,.roll_m,.roll_n,.roll_o,.roll_p,.roll_q,.roll_r,.roll_s,.roll_t,.roll_u{
+		width:100%;
+		height:100%;
+		border-radius:50%;
+		border:1px solid #123456;
+		position: absolute;
+		}
+.roll_b{
+		transform:rotateY(20deg);
+		}				
+.roll_c{
+		transform:rotateY(30deg);
+		}						
+.roll_d{
+		transform:rotateY(40deg);
+		}						
+.roll_e{
+		transform:rotateY(50deg);
+		}				
+.roll_f{
+		transform:rotateY(60deg);
+		}				
+.roll_g{
+		transform:rotateY(70deg);
+		}						
+.roll_h{
+		transform:rotateY(75deg);
+		}						
+.roll_i{
+		transform:rotateY(80deg);
+		}										
+.roll_j{
+		transform:rotateY(85deg);
+		}
+
+
+
+
+
+.roll_k{
+		transform:rotateX(20deg);
+		}				
+.roll_l{
+		transform:rotateX(30deg);
+		}						
+.roll_m{
+		transform:rotateX(40deg);
+		}						
+.roll_n{
+		transform:rotateX(50deg);
+		}				
+.roll_o{
+		transform:rotateX(60deg);
+		}				
+.roll_p{
+		transform:rotateX(70deg);
+		}						
+.roll_q{
+		transform:rotateX(75deg);
+		}						
+.roll_r{
+		transform:rotateX(80deg);
+		}										
+.roll_s{
+		transform:rotateX(85deg);
+		}
+.roll_t{
+		transform:rotateX(85deg);
+		}
+.roll_u{
+		transform:rotateX(88deg);
+		}
+
+
+@keyframes myRoll{
+		0%{transform: translateX(0px) rotateZ(0deg)}
+	
+	 100%{transform: translateX(150px) rotateZ(1000deg)}
+		}
+
