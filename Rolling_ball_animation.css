@@ -1,0 +1,194 @@
+body{
+		padding:0;
+		margin:0;
+		font-family:"Baloo Da 2";
+		background:radial-gradient(circle,#f0f0f0,black);
+		}
+
+.roll{
+		text-align:center;
+		font-size:40px;
+		font-weight:700;
+		text-shadow:2px 2px 5px grey;
+		}
+.roll_ball{
+		width:28vmax;
+		height:28vmax;
+		border-radius:50%;
+		margin:10%;
+		position:relative;
+		animation:myRoll 4s infinite;
+		transform-style:preserve-3d;		
+		}
+.roll_a,.roll_b,.roll_c,.roll_d,.roll_e,.roll_f,.roll_g,.roll_h,.roll_i,.roll_j,.roll_k,.roll_l,.roll_m,.roll_n,.roll_o,.roll_p,.roll_q,.roll_r,.roll_s,.roll_t,.roll_u{
+		width:100%;
+		height:100%;
+		border-radius:50%;
+		border:3px solid #80bfff;
+		position: absolute;
+		background:radial-gradient(circle,darkgreen,#123456);
+		}
+.roll_aa,.roll_bb,.roll_cc,.roll_dd,.roll_ee,.roll_ff,.roll_gg,.roll_hh,.roll_ii,.roll_jj,.roll_kk,.roll_ll,.roll_mm,.roll_nn,.roll_oo,.roll_pp,.roll_qq,.roll_rr,.roll_ss,.roll_tt,.roll_uu{
+		width:100%;
+		height:100%;
+		border-radius:50%;
+		border:3px solid #399cbd;
+		position: absolute;
+		background:radial-gradient(circle,darkgreen,#123456);
+		}
+.roll_b{
+		border:3px solid #399cbd;
+		transform:rotateY(20deg);
+		}				
+.roll_bb{
+		border:3px solid #399cbd;
+		transform:rotateY(-20deg);
+		}
+.roll_c{
+		transform:rotateY(30deg);
+		}				
+.roll_cc{
+		border:3px solid #399cbd;
+		transform:rotateY(-30deg);
+		}		
+.roll_d{
+		border:3px solid #399cbd;
+		transform:rotateY(40deg);
+		}				
+.roll_dd{
+		border:3px solid #399cbd;
+		transform:rotateY(-40deg);
+		}		
+.roll_e{
+		transform:rotateY(50deg);
+		}			
+.roll_ee{
+		transform:rotateY(-50deg);
+		}	
+.roll_f{
+		transform:rotateY(60deg);
+		}				
+.roll_ff{
+		border:3px solid #399cbd;
+		transform:rotateY(-60deg);
+		}
+.roll_g{
+		border:3px solid #399cbd;
+		transform:rotateY(70deg);
+		}				
+.roll_gg{
+		border:3px solid #399cbd;
+		transform:rotateY(-70deg);
+		}		
+.roll_h{
+		transform:rotateY(75deg);
+		}			
+.roll_hh{
+		border:3px solid #399cbd;
+		transform:rotateY(-75deg);
+		}			
+.roll_i{
+		border:3px solid #399cbd;
+		transform:rotateY(80deg);
+		}				
+.roll_ii{
+		border:3px solid #399cbd;
+		transform:rotateY(-80deg);
+		}						
+.roll_j{
+		transform:rotateY(85deg);
+		}
+.roll_jj{
+		border:3px solid #399cbd;
+		transform:rotateY(-85deg);
+		}
+
+
+
+
+
+.roll_k{
+		transform:rotateX(20deg);
+		}	
+.roll_kk{
+		transform:rotateX(-20deg);
+		}			
+.roll_l{
+		border:3px solid #aa00ff;
+		transform:rotateX(30deg);
+		}			
+.roll_ll{
+		border:3px solid #399cbd;
+		transform:rotateX(-30deg);
+		}						
+.roll_m{
+		transform:rotateX(40deg);
+		}		
+.roll_mm{
+		transform:rotateX(-40deg);
+		}									
+.roll_n{
+		border:3px solid #aa00ff;
+		transform:rotateX(50deg);
+		}		
+.roll_nn{
+		border:3px solid #aa00ff;
+		transform:rotateX(-50deg);
+		}							
+.roll_o{
+		transform:rotateX(60deg);
+		}	
+.roll_oo{
+		transform:rotateX(-60deg);
+		}								
+.roll_p{
+		border:3px solid #aa00ff;
+		transform:rotateX(70deg);
+		}					
+.roll_pp{
+		border:3px solid #aa00ff;
+		transform:rotateX(-70deg);
+		}						
+.roll_q{
+		transform:rotateX(75deg);
+		}			
+.roll_qq{
+		transform:rotateX(-75deg);
+		}						
+.roll_r{
+		transform:rotateX(80deg);
+		}			
+.roll_rr{
+		transform:rotateX(-80deg);
+		}										
+.roll_s{
+		border:3px solid #aa00ff;
+		transform:rotateX(85deg);
+		}
+.roll_ss{
+		border:3px solid #aa00ff;
+		transform:rotateX(-85deg);
+		}
+.roll_t{
+		transform:rotateX(85deg);
+		}
+.roll_tt{
+		transform:rotateX(-85deg);
+		}
+.roll_u{
+		border:3px solid #aa00ff;
+		transform:rotateX(88deg);
+		}
+.roll_uu{
+		border:3px solid #aa00ff;
+		transform:rotateX(-88deg);
+		}
+
+
+@keyframes myRoll{
+		0%{transform:scale(.1,.1) translateX(0px) translateY(-200px)  rotateX(0deg) rotateZ(0deg)}
+	
+	 50%{transform:scale(1,1) translateX(70px) translateY(120px) rotateZ(750deg) rotateX(790deg) }
+	 100%{transform:scale(3,3) translateX(200px) translateY(-50px) rotateZ(1750deg) rotateX(1790deg) }
+		}
+
